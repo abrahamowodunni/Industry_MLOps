@@ -1,1 +1,1 @@
-### Industr MLOps
+### Industry end-to-end MLOps
