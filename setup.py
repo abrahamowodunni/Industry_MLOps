@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 from typing import List
 
 
-E_DOT = '-e .'
+E_DOT = '-e .' ## this is used in the development stage.
 
 # creating a function that helps us get the required libraries 
 def get_requirments(file_path:str)->List[str]:
