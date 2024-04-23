@@ -89,7 +89,7 @@ class DataTransformation:
             input_feature_train_arr=preprocessing_obj.fit_transform(input_feature_train_df)
             input_feature_test_arr=preprocessing_obj.transform(input_feature_test_df)
 
-
+            ## we are doing this to make the target variable the last column.
             train_arr = np.c_[
                 input_feature_train_arr, np.array(target_feature_train_df)
             ]
