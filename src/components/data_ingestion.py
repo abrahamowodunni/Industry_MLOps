@@ -1,3 +1,4 @@
+from __future__ import absolute_import
 import os
 import sys
 from src.exception import CustomException
@@ -45,4 +46,3 @@ if __name__ == '__main__':
     obj = DataIngestion()
     obj.initial_data_ingestion()
         
-

@@ -1,5 +1,5 @@
 import sys # this can help with catching the type of error. 
-import logging
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb = error_detail.exc_info() ## this error details are store in here
@@ -15,6 +15,3 @@ class CustomException(Exception):
 
     def __str__(self):
         return self.error_message
-
-
-
